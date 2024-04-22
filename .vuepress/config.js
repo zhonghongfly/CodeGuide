@@ -13,7 +13,7 @@ module.exports = {
         ["meta", {"http-equiv": "Expires", content: "0"}],
         ["meta", {
             name: "keywords",
-            content: "小洪玩编程, 设计模式, 字节码编程, 中间件, Spring, Java基础, 面经手册"
+            content: "小洪玩编程, 设计模式, 数据结构与算法, 网络协议, Linux, 架构设计, Java, C/C++"
         }],
         ["meta", {name: "apple-mobile-web-app-capable", content: "yes"}]
     ],
@@ -56,7 +56,7 @@ module.exports = {
     // 主题配置
     themeConfig: {
         logo: getOssSoure('logo.png'),
-        docsRepo: "zhonghong666/CodeGuide",
+        docsRepo: "zhonghongfly/CodeGuide",
         // 编辑文档的所在目录
         docsDir: '',
         lastUpdated: '上次更新',
@@ -67,13 +67,12 @@ module.exports = {
         // 导航栏配置
         nav: [
             {text: '导读', link: '/docs/other/guide-to-read'},
-            // {text: 'Java', items: [
-            //     {text: 'Java基础', link: '/docs/other/guide-to-read'},
-            //     {text: 'JVM', link: '/docs/other/guide-to-read'}
-            // ]},
-            // {text: 'Spring', link: '/docs/designPatterns/index'},
             {text: '设计模式', link: '/docs/designPatterns/preface'},
-            // {text: 'Netty', link: '/docs/other/guide-to-read'},
+            // TODO 数据结构与算法
+            // TODO 网络协议 - TCP/IP UDP
+            // TODO Linux - 进程管理 内存管理 网络协议栈 并发编程
+            // TODO 架构设计
+            // TODO 编程语言 - Java C/C++
             {text: '资源', items: [
                 {text: 'emoji表情符号', link: '/docs/resources/emoji'}
             ]}
