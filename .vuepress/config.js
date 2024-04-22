@@ -48,6 +48,7 @@ module.exports = {
             md.use(require('markdown-it-figure'));
             md.use(require('markdown-it-smartarrows'));
             md.use(require('markdown-it-fontawesome'));
+            md.use(require("markdown-it-disable-url-encode"));
         },
         externalLinks: {
             target: '_blank', rel: 'noopener noreferrer'
