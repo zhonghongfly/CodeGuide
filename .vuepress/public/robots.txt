@@ -1,2 +1,2 @@
-Sitemap: https://zhonghong520.com/sitemap.xml
+Sitemap: https://zhonghongfly.com/sitemap.xml
 User-agent: *
