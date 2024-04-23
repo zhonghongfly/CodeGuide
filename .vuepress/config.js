@@ -79,7 +79,6 @@ module.exports = {
         ],
         // 侧边栏配置
         sidebar: {
-            "/docs/other/": getBarOther(),
             "/docs/设计模式/": getBarDesignPatterns(),
             "/docs/resources/emoji": getBarResource()
         }
@@ -88,19 +87,6 @@ module.exports = {
 
 function getOssSoure(path) {
     return `${ossBasePath}${path}`;
-}
-
-function getBarOther() {
-    return [
-        {
-            title: "阅读指南",
-            collapsable: false,
-            sidebarDepth: 4,
-            children: [
-                "guide-to-read.md"
-            ]
-        }
-    ]
 }
 
 function getBarResource() {
