@@ -67,7 +67,6 @@ module.exports = {
         editLinkText: '在GitHub中编辑',
         // 导航栏配置
         nav: [
-            {text: '导读', link: '/docs/other/guide-to-read'},
             {text: '设计模式', link: '/docs/设计模式/概述'},
             // TODO 数据结构与算法
             // TODO 网络协议 - TCP/IP UDP
