@@ -60,7 +60,7 @@ module.exports = {
         docsRepo: "zhonghongfly/CodeGuide",
         // 编辑文档的所在目录
         docsDir: '',
-        lastUpdated: '上次更新',
+        lastUpdated: '最后更新',
         smoothScroll: true,
         docsBranch: 'main',
         editLinks: true,
@@ -68,7 +68,7 @@ module.exports = {
         // 导航栏配置
         nav: [
             {text: '导读', link: '/docs/other/guide-to-read'},
-            {text: '设计模式', link: '/docs/designPatterns/preface'},
+            {text: '设计模式', link: '/docs/设计模式/概述'},
             // TODO 数据结构与算法
             // TODO 网络协议 - TCP/IP UDP
             // TODO Linux - 进程管理 内存管理 网络协议栈 并发编程
@@ -81,7 +81,7 @@ module.exports = {
         // 侧边栏配置
         sidebar: {
             "/docs/other/": getBarOther(),
-            "/docs/designPatterns/": getBarDesignPatterns(),
+            "/docs/设计模式/": getBarDesignPatterns(),
             "/docs/resources/emoji": getBarResource()
         }
     }
@@ -124,7 +124,16 @@ function getBarDesignPatterns() {
             collapsable: false,
             sidebarDepth: 4,
             children: [
-                "preface.md"
+                "概述.md"
+            ]
+        },
+        {
+            title: "创建型",
+            collapsable: false,
+            sidebarDepth: 4,
+            children: [
+                "简单工厂.md",
+                "抽象工厂.md"
             ]
         }
     ];
