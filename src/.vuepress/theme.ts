@@ -72,6 +72,12 @@ export default hopeTheme({
       components: ["Badge", "VPCard"],
     },
 
+    feed: {
+      atom: true,
+      json: true,
+      rss: true,
+    },
+
     // These features are enabled for demo, only preserve features you need here
     markdownImage: {
       figure: true,
