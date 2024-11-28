@@ -6,7 +6,7 @@ heroImage: /logo.svg
 heroText: 小洪玩编程
 actions:
   - text: 开始阅读 →
-    link: /zh/introduction
+    link: /en/introduction
     type: primary
 
 features:

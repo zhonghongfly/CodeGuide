@@ -25,28 +25,10 @@ export default hopeTheme({
   lastUpdated: false,
 
   locales: {
-    "/": {
-      // navbar
-      navbar: enNavbar,
-
-      // sidebar
-      sidebar: enSidebar,
-
-      footer: "GPL Licensed | Copyright © 2019-present Hong Zhong, All rights reserved.",
-
-      copyright: false,
-
-      displayFooter: true,
-
-      metaLocales: {
-
-      },
-    },
-
     /**
      * Chinese locale config
      */
-    "/zh/": {
+    "/": {
       // navbar
       navbar: zhNavbar,
 
@@ -64,6 +46,27 @@ export default hopeTheme({
 
       },
 
+    },
+    /**
+     * English locale config
+     */
+    "/en": {
+      
+      // navbar
+      navbar: enNavbar,
+
+      // sidebar
+      sidebar: enSidebar,
+
+      footer: "GPL Licensed | Copyright © 2019-present Hong Zhong, All rights reserved.",
+
+      copyright: false,
+
+      displayFooter: true,
+
+      metaLocales: {
+
+      },
     },
   },
 

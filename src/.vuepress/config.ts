@@ -35,28 +35,6 @@ export default defineUserConfig({
 
   locales: {
     "/": {
-      lang: "en-US",
-      title: "Computer Programming Guide",
-      description: EN_META.description,
-      head: [
-        ...BASIC_HEAD,
-        [
-          "meta",
-          {
-            name: "keywords",
-            content: EN_META.keywords,
-          },
-        ],
-        [
-          "meta",
-          {
-            name: "description",
-            content: EN_META.description
-          },
-        ],
-      ]
-    },
-    "/zh/": {
       lang: "zh-CN",
       title: "小洪玩编程",
       head: [
@@ -77,6 +55,28 @@ export default defineUserConfig({
         ],
       ],
       description: ZH_META.description
+    },
+    "/en/": {
+      lang: "en-US",
+      title: "Computer Programming Guide",
+      description: EN_META.description,
+      head: [
+        ...BASIC_HEAD,
+        [
+          "meta",
+          {
+            name: "keywords",
+            content: EN_META.keywords,
+          },
+        ],
+        [
+          "meta",
+          {
+            name: "description",
+            content: EN_META.description
+          },
+        ],
+      ]
     },
   },
 
