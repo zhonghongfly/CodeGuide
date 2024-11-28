@@ -81,6 +81,10 @@ export default hopeTheme({
       rss: true,
     },
 
+    markdownHint: {
+      alert: true,
+    },
+
     // These features are enabled for demo, only preserve features you need here
     markdownImage: {
       figure: true,
