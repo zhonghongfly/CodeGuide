@@ -271,7 +271,7 @@ ignoreErrors = ["error-remote-getjson", "error-missing-instagram-accesstoken"]
           gravatarEmail = ""
           avatarURL = "/images/avatar.png"
           subtitle = "The more efforts you make, the more fortune you get."
-          typeit = false
+          typeit = true
           social = true
       # 页面底部信息配置
       [languages.en.params.footer]
