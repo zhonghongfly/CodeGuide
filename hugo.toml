@@ -14,7 +14,7 @@ hasCJKLanguage = true
 # 版权描述，仅仅用于 SEO
 #copyright = "Copyright © 2025-present 小洪, All rights reserved."
 # 是否使用 robots.txt
-enableRobotsTXT = true
+enableRobotsTXT = false
 # 是否使用 git 信息
 enableGitInfo = true
 # 是否使用 emoji 代码
