@@ -55,20 +55,38 @@ ignoreErrors = ["error-remote-getjson", "error-missing-instagram-accesstoken"]
     polyfill = false
     # 是否使用 object-fit-images 来兼容旧式浏览器
     objectFit = false
-  # LoveIt 新增 | 0.2.0 代码配置
-  [params.page.code]
-    # 是否显示代码块的复制按钮
-    copy = true
-    # 默认展开显示的代码行数
-    maxShownLines = 50
-  # LoveIt 新增 | 0.2.0 目录配置
-  [params.page.toc]
-    # 是否使用目录
-    enable = true
-    # LoveIt 新增 | 0.2.9 是否保持使用文章前面的静态目录
-    keepStatic = false
-    # 是否使侧边目录自动折叠展开
-    auto = true
+  # 文章页面全局配置
+  [params.page]
+    # LoveIt 新增 | 0.2.0 是否在主页隐藏一篇文章
+    hiddenFromHomePage = false
+    # LoveIt 新增 | 0.2.0 是否在搜索结果中隐藏一篇文章
+    hiddenFromSearch = false
+    # LoveIt 新增 | 0.2.0 是否使用 ruby 扩展语法
+    ruby = true
+    # LoveIt 新增 | 0.2.0 是否使用 fraction 扩展语法
+    fraction = true
+    # LoveIt 新增 | 0.2.0 是否使用 fontawesome 扩展语法
+    fontawesome = true
+    # 是否在文章页面显示原始 Markdown 文档链接
+    linkToMarkdown = false
+    # LoveIt 新增 | 0.2.4 是否在 RSS 中显示全文内容
+    rssFullText = false
+    [params.page.share]
+      enable = false
+    # LoveIt 新增 | 0.2.0 代码配置
+    [params.page.code]
+      # 是否显示代码块的复制按钮
+      copy = true
+      # 默认展开显示的代码行数
+      maxShownLines = 50
+    # LoveIt 新增 | 0.2.0 目录配置
+    [params.page.toc]
+      # 是否使用目录
+      enable = true
+      # LoveIt 新增 | 0.2.9 是否保持使用文章前面的静态目录
+      keepStatic = false
+      # 是否使侧边目录自动折叠展开
+      auto = true
   # LoveIt 新增 | 0.2.0 搜索配置
   [params.search]
     enable = true
@@ -227,14 +245,6 @@ ignoreErrors = ["error-remote-getjson", "error-missing-instagram-accesstoken"]
         url = "/categories/"
         title = ""
       [[languages.en.menu.main]]
-        weight = 4
-        identifier = "documentation"
-        pre = ""
-        post = ""
-        name = "Docs"
-        url = "/categories/documentation/"
-        title = ""
-      [[languages.en.menu.main]]
         weight = 5
         identifier = "about"
         pre = ""
@@ -320,13 +330,6 @@ ignoreErrors = ["error-remote-getjson", "error-missing-instagram-accesstoken"]
         post = ""
         name = "分类"
         url = "/categories/"
-        title = ""
-      [[languages.zh-cn.menu.main]]
-        weight = 4
-        identifier = "documentation"
-        pre = ""
-        name = "文档"
-        url = "/categories/documentation/"
         title = ""
       [[languages.zh-cn.menu.main]]
         weight = 5
