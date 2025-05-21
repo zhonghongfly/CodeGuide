@@ -8,7 +8,6 @@ description: "设计模式（Design Pattern）是一套被反复使用、多数�
 resources:
 - name: "featured-image"
   src: "cover.png"
-lightgallery: true
 ---
 <!--more-->
 > 设计模式（Design Pattern）是一套被反复使用、多数人知晓的、无数工程师实践的代码设计经验的总结，

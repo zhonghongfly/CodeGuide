@@ -8,7 +8,6 @@ description: "Design Pattern is a set of code design experiences that are repeat
 resources:
 - name: "featured-image"
   src: "cover.png"
-lightgallery: true
 ---
 <!--more-->
 > Design Pattern is a summary of code design experience that is repeatedly used, known to most people, and practiced by countless engineers. It is a highly refined and templated version of object-oriented thinking. The purpose of using design patterns is to make the code more reusable, more flexible and scalable, and easier to read and understand.
