@@ -53,5 +53,5 @@ public final class Singleton {
 ```
 
 ## Applicable Scenarios
-1. If a class in your program has only one instance available to all clients, you can use the singleton pattern
-2. Some global management classes (Manager) in the project can be implemented as singletons
+1. If a class in your program has only one instance available to all clients, you can use the singleton pattern.
+2. Some global management classes (Manager) in the project can be implemented as singletons.

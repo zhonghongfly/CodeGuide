@@ -11,7 +11,7 @@ resources:
 ---
 <!--more-->
 ## Design Thoughts
-Defines an interface for creating objects, but leaves it up to the subclass to decide which class to instantiate. The factory method defers instantiation to the subclass; thus making it possible to extend object creation without affecting other code
+Defines an interface for creating objects, but leaves it up to the subclass to decide which class to instantiate. The factory method defers instantiation to the subclass; thus making it possible to extend object creation without affecting other code.
 
 ## Class Diagram
 {{< mermaid >}}
@@ -53,14 +53,14 @@ public class FactoryMethod {
   class ProductA implements Product {
     @Override
     void doStuff() {
-      System.out.println("ProductA doStuff");
+      System.out.println("ProductA doStuff.");
     }
   }
 
   class ProductB implements Product {
     @Override
     void doStuff() {
-      System.out.println("ProductB doStuff");
+      System.out.println("ProductB doStuff.");
     }
   }
 
