@@ -138,7 +138,13 @@ ignoreErrors = ["error-remote-getjson", "error-missing-instagram-accesstoken"]
     iconColor = "#5bbad5"
     # Windows v8-10磁贴颜色
     tileColor = "#da532c"
-
+  # 网站分析配置
+  [params.analytics]
+    # Google Analytics
+    [params.analytics.google]
+      id = "G-2LF0CWMBT6"
+      # 是否遵循浏览器的 “Do Not Track” 设置
+      respectDoNotTrack = false
 # Hugo 解析文档的配置
 [markup]
   # 语法高亮设置
