@@ -19,7 +19,7 @@ classDiagram
   direction BT
   class Product {
     <<interface>>
-    +doStuff()
+    +doStuff() void
   }
   class ProductA
   ProductA ..|> Product
