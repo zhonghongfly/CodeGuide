@@ -145,6 +145,9 @@ ignoreErrors = ["error-remote-getjson", "error-missing-instagram-accesstoken"]
       id = "G-2LF0CWMBT6"
       # 是否遵循浏览器的 “Do Not Track” 设置
       respectDoNotTrack = false
+    # 百度统计
+    [params.analytics.baidu]
+      id = "cd01aea0ce1748b71c190f2d5679b998"
 # Hugo 解析文档的配置
 [markup]
   # 语法高亮设置
