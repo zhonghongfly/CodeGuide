@@ -91,11 +91,11 @@ public class FactoryMethod {
 ```
 
 ## Pros and Cons
-advantage:
+Advantages:
 1. Complies with the **Single Responsibility Principle**; you can put product creation code in a single place in the program, making the code easier to maintain.
 2. Comply with the **open-closed principle**; you can introduce new product types into the program without changing the existing client code.
 
-shortcoming:
+Disadvantages:
 1. The factory method pattern is not applicable to products with multiple categories or products with secondary categories.
 
 ## Applicable Scenarios

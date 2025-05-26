@@ -151,12 +151,12 @@ public class AbstractFactoryTest {
 ```
 
 ## Pros and Cons
-advantages:
+Advantages:
 1. It solves the pain point that the factory method pattern cannot create products with two-level classification.
 2. It complies with the **single responsibility principle**; you can extract the product generation code to the same location, making the code easy to maintain.
 3. It complies with the **open-closed principle**; when introducing new product variants to the application, you do not need to modify the client code.
 
-disadvantages:
+Disadvantages:
 1. If the product classification exceeds two levels, such as three or even more levels, the abstract factory pattern will become very bloated.
 2. It cannot solve the problem of multiple classifications and multiple combinations of products.
 
