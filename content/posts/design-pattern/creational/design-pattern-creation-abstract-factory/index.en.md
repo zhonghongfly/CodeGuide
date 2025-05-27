@@ -1,5 +1,5 @@
 ---
-title: "Creational - Abstract Factory"
+title: "Creational - Abstract Factory Pattern"
 date: 2020-05-04T16:58:26+08:00
 lastmod: 2020-05-04T16:58:26+08:00
 tags: ['design pattern']

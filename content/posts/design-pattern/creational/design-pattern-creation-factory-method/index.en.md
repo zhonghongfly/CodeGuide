@@ -1,5 +1,5 @@
 ---
-title: "Creational - Factory Method"
+title: "Creational - Factory Method Pattern"
 date: 2020-05-03T16:58:26+08:00
 lastmod: 2020-05-03T16:58:26+08:00
 tags: ['design pattern']

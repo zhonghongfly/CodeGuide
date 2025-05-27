@@ -1,5 +1,5 @@
 ---
-title: "Structural - Bridge"
+title: "Structural - Bridge Pattern"
 date: 2020-05-08T16:58:26+08:00
 lastmod: 2020-05-08T16:58:26+08:00
 tags: ['design pattern']

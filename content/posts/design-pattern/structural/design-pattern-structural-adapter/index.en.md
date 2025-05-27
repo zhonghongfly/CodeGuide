@@ -1,5 +1,5 @@
 ---
-title: "Structural - Adapter"
+title: "Structural - Adapter Pattern"
 date: 2020-05-07T16:58:26+08:00
 lastmod: 2020-05-07T16:58:26+08:00
 tags: ['design pattern']

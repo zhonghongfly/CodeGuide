@@ -1,5 +1,5 @@
 ---
-title: "Creational - Singleton"
+title: "Creational - Singleton Pattern"
 date: 2020-05-02T16:58:26+08:00
 lastmod: 2020-05-02T16:58:26+08:00
 tags: ['design pattern']

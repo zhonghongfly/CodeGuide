@@ -1,5 +1,5 @@
 ---
-title: "Creational - Builder"
+title: "Creational - Builder Pattern"
 date: 2020-05-05T16:58:26+08:00
 lastmod: 2020-05-05T16:58:26+08:00
 tags: ['design pattern']
