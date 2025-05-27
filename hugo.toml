@@ -2,7 +2,7 @@ baseURL = 'https://zhonghongfly.com/'
 # 更改使用 Hugo 构建网站时使用的默认主题
 theme = "LoveIt"
 # 网站标题
-title = "CodeGuide"
+title = "Hong Zhong's Blog"
 # 设置默认的语言 ["en", "zh-cn", "fr", "pl", ...]
 defaultContentLanguage = "zh-cn"
 # 网站语言, 仅在这里 CN 大写 ["en", "zh-CN", "fr", "pl", ...]
@@ -127,7 +127,7 @@ ignoreErrors = ["error-remote-getjson", "error-missing-instagram-accesstoken"]
   # LoveIt 新增 | 0.2.0 应用图标配置
   [params.app]
     # 当添加到 iOS 主屏幕或者 Android 启动器时的标题, 覆盖默认标题
-    title = "CodeGuide"
+    title = "Hong Zhong's Blog"
     # 是否隐藏网站图标资源链接
     noFavicon = false
     # 更现代的 SVG 网站图标, 可替代旧的 .png 和 .ico 文件
@@ -222,7 +222,7 @@ ignoreErrors = ["error-remote-getjson", "error-missing-instagram-accesstoken"]
 [languages]
   [languages.en]
     weight = 2
-    title = "CodeGuide"
+    title = "Hong Zhong's Blog"
     languageCode = "en"
     languageName = "English"
     hasCJKLanguage = false
@@ -263,7 +263,7 @@ ignoreErrors = ["error-remote-getjson", "error-missing-instagram-accesstoken"]
         title = ""
     [languages.en.params]
       # 网站标题, 用于 Open Graph 和 Twitter Cards
-      title = "Computer Programming Guide"
+      title = "Hong Zhong's Blog"
       # 网站描述, 用于 RSS, SEO, Open Graph 和 Twitter Cards
       description = "This is a computer programming guide, including: Java basics, JDK source code, JVM, Spring, Spring Boot, Spring Cloud, database principles, MySQL, ElasticSearch, MongoDB, Docker, k8s, CI&CD, Linux, DevOps, distribution, middleware , development tools, Git, IDE, source code reading, reading notes, open source projects..."    
       # LoveIt 新增 | 0.2.0 页面头部导航栏标题配置
@@ -276,7 +276,7 @@ ignoreErrors = ["error-remote-getjson", "error-missing-instagram-accesstoken"]
           # LOGO 的 URL
           logo = "/favicon.svg"
           # 标题名称
-          name = "Computer Programming Guide"
+          name = "Hong Zhong's Blog"
           # 你可以在名称 (允许 HTML 格式) 之前添加其他信息, 例如图标
           pre = ""
           # 你可以在名称 (允许 HTML 格式) 之后添加其他信息, 例如图标
@@ -313,7 +313,7 @@ ignoreErrors = ["error-remote-getjson", "error-missing-instagram-accesstoken"]
     languageCode = "zh-CN"
     languageName = "简体中文"
     hasCJKLanguage = true
-    copyright = "Copyright © 2019-present 小洪, All rights reserved."
+    copyright = "Copyright © 2019-present Hong Zhong, All rights reserved."
     # 菜单配置
     [languages.zh-cn.menu]
       [[languages.zh-cn.menu.main]]
@@ -350,7 +350,7 @@ ignoreErrors = ["error-remote-getjson", "error-missing-instagram-accesstoken"]
         title = ""
     [languages.zh-cn.params]
       # 网站标题, 用于 Open Graph 和 Twitter Cards
-      title = "小洪玩编程"
+      title = "Hong Zhong's Blog"
       # 网站描述, 用于 RSS, SEO, Open Graph 和 Twitter Cards
       description = "这是一份计算机编程指南，包含: Java 基础, JDK源码, JVM, Spring, Spring Boot, Spring Cloud, 数据库原理, MySQL, ElasticSearch, MongoDB, Docker, k8s, CI&CD, Linux, DevOps, 分布式, 中间件, 开发工具, Git, IDE, 源码阅读，读书笔记, 开源项目..."
       # LoveIt 新增 | 0.2.0 页面头部导航栏标题配置
@@ -363,7 +363,7 @@ ignoreErrors = ["error-remote-getjson", "error-missing-instagram-accesstoken"]
           # LOGO 的 URL
           logo = "/favicon.svg"
           # 标题名称
-          name = "小洪玩编程"
+          name = "Hong Zhong's Blog"
           # 你可以在名称 (允许 HTML 格式) 之前添加其他信息, 例如图标
           pre = ""
           # 你可以在名称 (允许 HTML 格式) 之后添加其他信息, 例如图标
