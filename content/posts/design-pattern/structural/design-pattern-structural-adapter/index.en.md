@@ -105,7 +105,7 @@ class Adapter {
 
   public void method(Data data) {
     SpecialData specialData = convert(data);
-    return service.serviceMethod(specialData);
+    service.serviceMethod(specialData);
   }
 }
 
@@ -146,7 +146,7 @@ class Adapter : public ExistClass, public Service {
     Adapter() {}
     void method(Data *data) override {
       SpecialData specialData = convert(data);
-      return serviceMethod(&specialData);
+      serviceMethod(&specialData);
     }
 }
 
