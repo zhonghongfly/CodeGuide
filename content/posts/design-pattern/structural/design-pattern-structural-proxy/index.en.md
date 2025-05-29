@@ -1,7 +1,7 @@
 ---
-title: "Structural - Adapter"
-date: 2020-05-07T16:58:26+08:00
-lastmod: 2020-05-07T16:58:26+08:00
+title: "Structural - Proxy Pattern"
+date: 2020-05-13T16:58:26+08:00
+lastmod: 2020-05-13T16:58:26+08:00
 tags: ['design pattern']
 categories: ['programming']
 description: ""
