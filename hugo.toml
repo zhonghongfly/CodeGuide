@@ -79,6 +79,9 @@ ignoreErrors = ["error-remote-getjson", "error-missing-instagram-accesstoken"]
       copy = true
       # 默认展开显示的代码行数
       maxShownLines = 100
+      [params.page.code.render]
+        goat = true
+        mermaid = true
     # LoveIt 新增 | 0.2.0 目录配置
     [params.page.toc]
       # 是否使用目录

@@ -20,13 +20,16 @@ By introducing the facade, the client does not need to interact directly with th
 {{< mermaid >}}
 classDiagram
   class Facade {
-    -linksToSubSystemObjects
-    -optionalAdditionalFacade
-    +subSystemOperation()
+    -SubSystemClassA subSystemA
+    -SubSystemClassB subSystemB
+    -AdditionalFacade optionalAdditionalFacade
+    +subSystemOperation() void
   }
 
   class AdditionalFacade {
-    +anotherOperation()
+    -SubSystemClassB subSystemB
+    -SubSystemClassC subSystemC
+    +anotherOperation() void
   }
 
   namespace SubSystem {
@@ -67,7 +70,7 @@ class SubSystemClassC {
 class Facade {
   private SubSystemClassA subSystemA = new SubSystemClassA();
 
-  private SubSystemClassA subSystemB = new SubSystemClassB();
+  private SubSystemClassB subSystemB = new SubSystemClassB();
 
   void subSystemOperation() {
     System.out.println("Facade subSystemOperation invoke.");
