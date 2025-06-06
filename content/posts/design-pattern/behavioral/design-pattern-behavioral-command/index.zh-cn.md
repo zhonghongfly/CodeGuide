@@ -25,24 +25,36 @@ resources:
 classDiagram
   class Command {
     <<interface>>
-    +execute() void
+    +execute()
   }
 
   class Invoker {
-
+    -Command command
+    +setCommand(command: Command)
+    +executeCommand()
   }
+  Invoker --> Command
 
   class Receiver {
-
+    +operation(param1, param2, param3);
   }
 
   class ConcreteCommandA {
-
+    -Receiver receiver
+    -Object[] params
+    +ConcreteCommandA(receiver: Receiver, params: Object[])
+    +execute()
   }
 
   class ConcreteCommandB {
-
+    -Receiver receiver
+    -Object[] params
+    +ConcreteCommandB(receiver: Receiver, params: Object[])
+    +execute()
   }
+
+  Class Client
+  Client 
 {{< /mermaid >}}
 
 ## 代码实现
