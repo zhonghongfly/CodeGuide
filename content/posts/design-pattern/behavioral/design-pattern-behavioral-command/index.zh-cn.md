@@ -23,6 +23,7 @@ resources:
 ## 类图
 {{< mermaid >}}
 classDiagram
+  direction BT
   class Command {
     <<interface>>
     +execute()
@@ -33,40 +34,92 @@ classDiagram
     +setCommand(command: Command)
     +executeCommand()
   }
-  Invoker --> Command
+  Invoker --o Command
 
   class Receiver {
-    +operation(param1, param2, param3);
+    +operation(param1, param2, param3)
   }
 
-  class ConcreteCommandA {
+  class ConcreteCommand {
     -Receiver receiver
     -Object[] params
-    +ConcreteCommandA(receiver: Receiver, params: Object[])
+    +ConcreteCommand(receiver: Receiver, params: Object[])
     +execute()
   }
-
-  class ConcreteCommandB {
-    -Receiver receiver
-    -Object[] params
-    +ConcreteCommandB(receiver: Receiver, params: Object[])
-    +execute()
-  }
+  ConcreteCommand ..|> Command
+  ConcreteCommand --> Receiver
 
   Class Client
-  Client 
+  Client --> Receiver
+  Client ..> ConcreteCommand
 {{< /mermaid >}}
 
 ## 代码实现
 ```java
+interface Command {
+  void execute();
+}
 
+class Invoker {
+  private Command command;
+
+  public void setCommand(Command command) {
+    this.command = command;
+  }
+
+  public void executeCommand() {
+    this.command.execute();
+  }
+}
+
+class Receiver {
+  public void operation(Object... params) {
+    System.out.println("Receiver operation invoke.");
+  }
+}
+
+class ConcreteCommand implements Command {
+  private Receiver receiver;
+
+  private Object[] params;
+
+  public ConcreteCommand(Receiver receiver, Object[] params) {
+    this.receiver = receiver;
+    this.params = params;
+  }
+
+  @Override
+  public void execute() {
+    System.out.println("ConcreteCommand execute invoke.");
+    this.receiver.operation(this.params);
+  }
+}
+
+public class Client {
+  public static void main(String[] args) {
+    Receiver receiver = new Receiver();
+    Command command = new ConcreteCommand(receiver, new Object[] {});
+    Invoker invoker = new Invoker();
+    invoker.setCommand(command);
+    invoker.executeCommand();
+  }
+}
 ```
 
 ## 优缺点
 优点：
-
+1. 符合**单一职责原则**，命令模式将调用者和接收者解耦，使得系统中的对象更加独立。调用者无需了解接收者的具体实现，仅需要知道如何使用命令对象即可。
+2. 符合**开闭原则**，新的命令类可以很容易地添加到系统中，而无需修改现有的代码。这使得系统更容易扩展和维护。
 
 缺点：
-
+1. 每个具体命令都需要一个对应的命令类，可能会导致类的数量增加，系统变得复杂。
 
 ## 适用场景
+1. 在图形用户界面中，菜单和按钮的点击操作通常使用命令模式，将不同的操作封装为命令对象。
+2. 当需要支持多级撤销和重做操作时，命令模式是一个常见的选择。
+3. 遥控器通常使用命令模式，每个按钮对应一个命令，从而实现对设备的控制。
+4. 命令模式可以用于实现任务调度和队列系统，将命令对象放入队列中依次执行。
+5. 在数据库系统中，命令模式可以用于管理事务的执行和回滚，确保一系列数据库操作的一致性。
+
+> 命令模式适用于需要解耦调用者和接收者、支持撤销和重做、支持命令的排队、队列和日志等场景。
+> 在合适的场景下，命令模式可以提高系统的灵活性和可维护性。
