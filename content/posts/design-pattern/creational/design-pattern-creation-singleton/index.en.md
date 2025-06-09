@@ -1,7 +1,7 @@
 ---
 title: "Creational - Singleton Pattern"
-date: 2020-05-02T16:58:26+08:00
-lastmod: 2020-05-02T16:58:26+08:00
+date: 2025-05-02T16:58:26+08:00
+lastmod: 2025-05-02T16:58:26+08:00
 tags: ['design pattern']
 categories: ['programming']
 description: "The singleton pattern is a creational design pattern that allows you to ensure that a class has only one instance and provide a global node to access the instance."

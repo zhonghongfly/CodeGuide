@@ -1,7 +1,7 @@
 ---
 title: "Structural - Facade Pattern"
-date: 2020-05-11T16:58:26+08:00
-lastmod: 2020-05-11T16:58:26+08:00
+date: 2025-05-11T16:58:26+08:00
+lastmod: 2025-05-11T16:58:26+08:00
 tags: ['design pattern']
 categories: ['programming']
 description: "The Facade pattern is a structural pattern whose purpose is to provide a simplified interface, hide the complexity of the system, and make it easier for clients to use the system."

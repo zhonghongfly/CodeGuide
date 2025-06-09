@@ -1,7 +1,7 @@
 ---
 title: "Design Pattern Knowledge System"
-date: 2020-05-01T15:58:26+08:00
-lastmod: 2020-05-01T15:58:26+08:00
+date: 2025-05-01T15:58:26+08:00
+lastmod: 2025-05-01T15:58:26+08:00
 tags: ['design pattern']
 categories: ['programming']
 description: "Design Pattern is a set of code design experiences that are repeatedly used, known to most people, and practiced by countless engineers. It is a highly refined and templated version of object-oriented thinking. The purpose of using design patterns is to make the code more reusable, more flexible and scalable, and easier to read and understand. No matter what language is used for development, it will provide guidance for our system design and development."

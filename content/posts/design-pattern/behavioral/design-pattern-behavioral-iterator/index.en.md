@@ -1,7 +1,7 @@
 ---
 title: "Structural - Iterator Pattern"
-date: 2020-05-17T16:58:26+08:00
-lastmod: 2020-05-17T16:58:26+08:00
+date: 2025-05-17T16:58:26+08:00
+lastmod: 2025-05-17T16:58:26+08:00
 tags: ['design pattern']
 categories: ['programming']
 description: "Iterator is a behavioral design pattern that provides a way to sequentially access the elements of an aggregate object without exposing the internal representation of the object. The pattern defines an iterator interface, which is responsible for defining methods for accessing and traversing elements, and an iterable interface, which is responsible for returning an instance of the iterator."

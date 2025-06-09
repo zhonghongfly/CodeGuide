@@ -1,7 +1,7 @@
 ---
 title: "Creational - Builder Pattern"
-date: 2020-05-05T16:58:26+08:00
-lastmod: 2020-05-05T16:58:26+08:00
+date: 2025-05-05T16:58:26+08:00
+lastmod: 2025-05-05T16:58:26+08:00
 tags: ['design pattern']
 categories: ['programming']
 description: "The Builder pattern is a creational design pattern that allows you to create complex objects in steps. During this process, the user does not need to know the specific internal construction details. The Builder pattern is particularly suitable for situations where the construction process of the object to be built is complex and contains multiple optional parts."

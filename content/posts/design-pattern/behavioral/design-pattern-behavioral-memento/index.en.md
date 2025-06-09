@@ -1,7 +1,7 @@
 ---
 title: "Structural - Memento Pattern"
-date: 2020-05-18T16:58:26+08:00
-lastmod: 2020-05-18T16:58:26+08:00
+date: 2025-05-18T16:58:26+08:00
+lastmod: 2025-05-18T16:58:26+08:00
 tags: ['design pattern']
 categories: ['programming']
 description: "Memento is a behavioral design pattern that allows capturing and restoring the internal state of an object without exposing its implementation details."

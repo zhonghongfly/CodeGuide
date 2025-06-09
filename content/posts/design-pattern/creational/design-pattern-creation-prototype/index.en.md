@@ -1,7 +1,7 @@
 ---
 title: "Creational - Prototype Pattern"
-date: 2020-05-06T16:58:26+08:00
-lastmod: 2020-05-06T16:58:26+08:00
+date: 2025-05-06T16:58:26+08:00
+lastmod: 2025-05-06T16:58:26+08:00
 tags: ['design pattern']
 categories: ['programming']
 description: "Prototype mode (Prototype), use the prototype instance to specify the type of object to be created, and create new objects by copying this prototype; without making the code dependent on the class to which they belong."

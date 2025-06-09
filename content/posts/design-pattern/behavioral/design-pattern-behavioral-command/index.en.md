@@ -1,7 +1,7 @@
 ---
 title: "Structural - Command Pattern"
-date: 2020-05-15T16:58:26+08:00
-lastmod: 2020-05-15T16:58:26+08:00
+date: 2025-05-15T16:58:26+08:00
+lastmod: 2025-05-15T16:58:26+08:00
 tags: ['design pattern']
 categories: ['programming']
 description: "The Command pattern is a behavioral design pattern that transforms a request into a separate object that contains all the information related to the request. This transformation allows you to parameterize methods according to different requests, delay request execution or put it in a queue, and implement revocable operations."

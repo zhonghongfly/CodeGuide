@@ -1,7 +1,7 @@
 ---
 title: "Structural - Decorator Pattern"
-date: 2020-05-10T16:58:26+08:00
-lastmod: 2020-05-10T16:58:26+08:00
+date: 2025-05-10T16:58:26+08:00
+lastmod: 2025-05-10T16:58:26+08:00
 tags: ['design pattern']
 categories: ['programming']
 description: "The Decorator pattern is a structural design pattern that allows you to add new behaviors to the original object by putting the object into a special encapsulation class that contains the behavior. This pattern can dynamically attach responsibilities to objects without affecting other objects."

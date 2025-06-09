@@ -1,7 +1,7 @@
 ---
 title: "Structural - Mediator Pattern"
-date: 2020-05-18T16:58:26+08:00
-lastmod: 2020-05-18T16:58:26+08:00
+date: 2025-05-18T16:58:26+08:00
+lastmod: 2025-05-18T16:58:26+08:00
 tags: ['design pattern']
 categories: ['programming']
 description: "The Mediator pattern is a behavioral design pattern that reduces the coupling between objects by transferring direct communication between objects to a mediator object. This pattern is used to handle the interaction between an object and other objects so that the objects do not need to know each other directly."

@@ -1,7 +1,7 @@
 ---
 title: "Structural - Observer Pattern"
-date: 2020-05-20T16:58:26+08:00
-lastmod: 2020-05-20T16:58:26+08:00
+date: 2025-05-20T16:58:26+08:00
+lastmod: 2025-05-20T16:58:26+08:00
 tags: ['design pattern']
 categories: ['programming']
 description: "The Observer pattern is a behavioral design pattern that allows you to define a subscription mechanism that notifies multiple other objects that 'observe' an object when an event occurs on that object."

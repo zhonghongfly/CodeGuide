@@ -1,7 +1,7 @@
 ---
 title: "Structural - Adapter Pattern"
-date: 2020-05-07T16:58:26+08:00
-lastmod: 2020-05-07T16:58:26+08:00
+date: 2025-05-07T16:58:26+08:00
+lastmod: 2025-05-07T16:58:26+08:00
 tags: ['design pattern']
 categories: ['programming']
 description: "The Adapter pattern converts the interface of a class into another interface that the client expects. The adapter allows classes with incompatible interfaces to work together seamlessly. Object adapters use composition, and class adapters use multiple inheritance."

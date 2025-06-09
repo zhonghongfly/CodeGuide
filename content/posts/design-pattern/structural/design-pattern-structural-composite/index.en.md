@@ -1,7 +1,7 @@
 ---
 title: "Structural - Composite Pattern"
-date: 2020-05-09T16:58:26+08:00
-lastmod: 2020-05-09T16:58:26+08:00
+date: 2025-05-09T16:58:26+08:00
+lastmod: 2025-05-09T16:58:26+08:00
 tags: ['design pattern']
 categories: ['programming']
 description: "The Composite Pattern is a structural design pattern that allows objects to be combined into a tree structure to represent a part-whole hierarchy. The Composite Pattern allows clients to uniformly handle single objects and object combinations without distinguishing their types."

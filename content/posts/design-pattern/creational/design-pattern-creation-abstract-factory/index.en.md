@@ -1,7 +1,7 @@
 ---
 title: "Creational - Abstract Factory Pattern"
-date: 2020-05-04T16:58:26+08:00
-lastmod: 2020-05-04T16:58:26+08:00
+date: 2025-05-04T16:58:26+08:00
+lastmod: 2025-05-04T16:58:26+08:00
 tags: ['design pattern']
 categories: ['programming']
 description: "The Abstract Factory pattern creates a family of objects, that is, many objects instead of one object, and these objects are related, that is, they must be created together. The Factory Method pattern is only used to create an object, which is very different from the Abstract Factory pattern."

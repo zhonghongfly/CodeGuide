@@ -1,7 +1,7 @@
 ---
 title: "Structural - Bridge Pattern"
-date: 2020-05-08T16:58:26+08:00
-lastmod: 2020-05-08T16:58:26+08:00
+date: 2025-05-08T16:58:26+08:00
+lastmod: 2025-05-08T16:58:26+08:00
 tags: ['design pattern']
 categories: ['programming']
 description: "The Bridge pattern is a structural design pattern that can split a large class or a series of closely related classes into two independent hierarchies of abstraction and implementation, so that they can be used separately during development. The Bridge pattern achieves this separation through composition rather than inheritance."

@@ -1,7 +1,7 @@
 ---
 title: "Structural - State Pattern"
-date: 2020-05-21T16:58:26+08:00
-lastmod: 2020-05-21T16:58:26+08:00
+date: 2025-05-21T16:58:26+08:00
+lastmod: 2025-05-21T16:58:26+08:00
 tags: ['design pattern']
 categories: ['programming']
 description: "The State pattern is a behavioral design pattern that allows an object to change its behavior when its internal state changes. The key idea of ​​the State pattern is to encapsulate the state of an object into an independent class and delegate the behavior of the object to the object of the current state. In this way, when the state of the object changes, its behavior will also change accordingly."

@@ -1,7 +1,7 @@
 ---
 title: "Structural - Chain of Responsibility Pattern"
-date: 2020-05-14T16:58:26+08:00
-lastmod: 2020-05-14T16:58:26+08:00
+date: 2025-05-14T16:58:26+08:00
+lastmod: 2025-05-14T16:58:26+08:00
 tags: ['design pattern']
 categories: ['programming']
 description: "The Chain of Responsibility pattern is a behavioral design pattern that allows you to send a request along a chain of handlers. After receiving a request, each handler can process the request or pass it to the next handler in the chain."

@@ -1,7 +1,7 @@
 ---
 title: "Structural - Interpreter Pattern"
-date: 2020-05-16T16:58:26+08:00
-lastmod: 2020-05-16T16:58:26+08:00
+date: 2025-05-16T16:58:26+08:00
+lastmod: 2025-05-16T16:58:26+08:00
 tags: ['design pattern']
 categories: ['programming']
 description: "The Interpreter Pattern is a behavioral design pattern that defines the grammar of a language and builds an interpreter to interpret sentences in the language. The Interpreter Pattern is often used to implement programming language interpreters, regular expression interpreters, etc."

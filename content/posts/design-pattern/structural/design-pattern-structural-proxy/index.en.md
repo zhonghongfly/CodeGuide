@@ -1,7 +1,7 @@
 ---
 title: "Structural - Proxy Pattern"
-date: 2020-05-13T16:58:26+08:00
-lastmod: 2020-05-13T16:58:26+08:00
+date: 2025-05-13T16:58:26+08:00
+lastmod: 2025-05-13T16:58:26+08:00
 tags: ['design pattern']
 categories: ['programming']
 description: "The Proxy pattern is a structural design pattern that allows you to provide a substitute or placeholder for an object. The proxy controls access to the original object and allows some processing before and after submitting the request to the object."

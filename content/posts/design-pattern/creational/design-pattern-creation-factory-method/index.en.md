@@ -1,7 +1,7 @@
 ---
 title: "Creational - Factory Method Pattern"
-date: 2020-05-03T16:58:26+08:00
-lastmod: 2020-05-03T16:58:26+08:00
+date: 2025-05-03T16:58:26+08:00
+lastmod: 2025-05-03T16:58:26+08:00
 tags: ['design pattern']
 categories: ['programming']
 description: "Factory Method, which defines an interface for creating objects, but leaves it up to the subclass to decide which class to instantiate. The factory method defers instantiation to the subclass; thus, it can extend object creation without affecting other code."

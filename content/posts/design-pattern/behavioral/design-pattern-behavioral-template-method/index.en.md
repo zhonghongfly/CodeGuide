@@ -1,7 +1,7 @@
 ---
-title: "Structural - Chain of Responsibility Pattern"
-date: 2020-05-14T16:58:26+08:00
-lastmod: 2020-05-14T16:58:26+08:00
+title: "Structural - Template Method Pattern"
+date: 2025-05-23T16:58:26+08:00
+lastmod: 2025-05-23T16:58:26+08:00
 tags: ['design pattern']
 categories: ['programming']
 description: ""

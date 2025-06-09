@@ -1,7 +1,7 @@
 ---
 title: "Structural - Flyweight Pattern"
-date: 2020-05-12T16:58:26+08:00
-lastmod: 2020-05-12T16:58:26+08:00
+date: 2025-05-12T16:58:26+08:00
+lastmod: 2025-05-12T16:58:26+08:00
 tags: ['design pattern']
 categories: ['programming']
 description: "Flyweight is a structural design pattern that aims to minimize memory usage or computational overhead by sharing objects to improve performance. This pattern is suitable for scenarios that require a large number of similar objects. By sharing part of the state of these similar objects, memory consumption can be effectively reduced."
