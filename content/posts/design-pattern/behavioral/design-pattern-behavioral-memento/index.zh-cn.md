@@ -9,7 +9,7 @@ resources:
 - name: "featured-image"
   src: "cover.png"
 ---
-
+<!--more-->
 ## 设计思想
 备忘录模式（Memento）是一种行为设计模式，它允许在不暴露对象实现细节的情况下捕获并恢复其内部状态。
 

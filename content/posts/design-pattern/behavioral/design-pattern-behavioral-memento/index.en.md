@@ -9,7 +9,7 @@ resources:
 - name: "featured-image"
   src: "cover.png"
 ---
-
+<!--more-->
 ## Design Thoughts
 Memento is a behavioral design pattern that allows the internal state of an object to be captured and restored without exposing its implementation details.
 
