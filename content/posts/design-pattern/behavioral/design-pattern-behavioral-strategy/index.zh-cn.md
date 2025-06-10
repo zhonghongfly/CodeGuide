@@ -4,7 +4,7 @@ date: 2025-05-22T16:58:26+08:00
 lastmod: 2025-05-22T16:58:26+08:00
 tags: ['设计模式']
 categories: ['编程']
-description: ""
+description: "策略模式（Strategy）是一种行为设计模式，它定义了一系列的算法，将每个算法封装起来，并且使它们可以互相替换。策略模式使得算法可以独立于客户端而变化。"
 resources:
 - name: "featured-image"
   src: "cover.png"
